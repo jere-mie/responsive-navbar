@@ -106,7 +106,13 @@ body{
 
     .toggle-button {
         display: flex;
+        transition-duration: 200ms;
     }
+    .toggle-button.active {
+        transform: rotate(90deg);
+        transition-duration: 200ms;
+    }
+
 
     .navbar-links {
         display: none;
