@@ -76,6 +76,28 @@ body{
     border-radius: 10px;
 }
 
+.navbar-links-right{
+    margin-left: auto;
+    display: flex; 
+}
+.navbar-links-right li{
+    list-style: none;
+    /* height: auto; */
+    margin: auto 0;
+}
+.navbar-links-right li a{
+    text-decoration: none;
+    display: block;
+    color:white; 
+    padding: 1rem;
+}
+.navbar-links-right li:hover{
+    background-color: #555;
+}
+
+
+
+
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
@@ -107,4 +129,23 @@ body{
     .navbar-links.active {
         display: flex;
     }
+    .navbar-links-right{
+        display:none;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%
+    }
+    .navbar-links-right li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar-links-right li a {
+        padding: .75rem 1rem;
+    }
+    .navbar-links-right.active {
+        display:flex;
+    }
+
 }
