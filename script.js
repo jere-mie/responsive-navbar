@@ -7,3 +7,8 @@ toggleButton.addEventListener("click", () => {
     navbarLinksRight.classList.toggle("active");
     toggleButton.classList.toggle("active");
 })
+
+function dropdown(id){
+    let text = document.getElementById(id);
+    text.classList.toggle("active");
+}

@@ -1,0 +1,10 @@
+.dropdown{
+
+}
+.dropdowntext{
+    display:none;
+}
+
+.dropdowntext.active{
+    display:block;
+}
