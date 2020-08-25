@@ -16,11 +16,15 @@ body{
     color:white;
 }
 
+.navbar-left{
+    justify-content: left;
+}
+
 .navbar-fixed{
     position: fixed;
     top:0;
     left:0;
-    width:100%
+    width: 100%;
 }
 
 .brand-title{
